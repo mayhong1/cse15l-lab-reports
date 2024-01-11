@@ -26,7 +26,7 @@ The current directory is switched from /home to /home/lecture1. This happens bec
 
 Working directory: /home/lecture1
 
-The cd command switches the current working directory to the argument. An error occurs because the argument isn't a path to a directory, so the command therefore doesn't work. 
+The cd command switches the current working directory to the argument. An error occurs because the argument is a path to a file, not a directory, so the command therefore doesn't work. 
 
 ## Here are some examples of the command ls
 
