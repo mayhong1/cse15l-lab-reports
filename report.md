@@ -18,7 +18,7 @@ Since there is no argument, the cd command by default switches the current worki
 
 Working directory: /home/lecture1
 
-The current directory is switched from /home to /home/lecture1. This happens because the cd command switches the current working directory to the argument, which is lecture1. There is no error.
+The current directory is switched from /home to /home/lecture1. This happens because the cd command switches the current working directory to the argument (should be a path), which is lecture1. There is no error.
 
 **path to a file as an argument**
 
