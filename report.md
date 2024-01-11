@@ -6,11 +6,11 @@ This lab report is about the commands cd, ls, and cat
 
 **no arguments**
 
-![Image](screenshot1.png)	
+![Image](screenshot11.png)	
 
-Working directory: /home
+Working directory: /home/lecture1
 
-Nothing happens because cd switches the current working directory to the argument (which should be a path), and since there is no argument, the current working directory stays as is. There is no error.
+Since there is no argument, the cd command by default switches the current working directory to the home directory. Hence, the current working directy becomes /home. There is no error.
 
 **path to a directory as an argument**
 
