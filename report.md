@@ -4,21 +4,24 @@ This lab report is about the commands cd, ls, and cat
 
 ## Here are some examples of the command cd
 
-** no arguments **
+**no arguments**
+
 ![Image](screenshot1.png)	
 
 Working directory: /home
 
 Nothing happens because cd switches the current working directory to the argument (which should be a path), and since there is no argument, the current working directory stays as is. There is no error.
 
-** path to a directory as an argument **
+**path to a directory as an argument**
+
 ![Image](screenshot2.png)	
 
 Working directory: /home/lecture1
 
 The current directory is switched from /home to /home/lecture1. This happens because the cd command switches the current working directory to the argument, which is lecture1. There is no error.
 
-** path to a file as an argument **
+**path to a file as an argument**
+
 ![Image](screenshot3.png)	
 
 Working directory: /home/lecture1
@@ -27,21 +30,24 @@ The cd command switches the current working directory to the argument. An error 
 
 ## Here are some examples of the command ls
 
-** no arguments **
+**no arguments**
+
 ![Image](screenshot8.png)	
 
 Working directory: /home
 
 The argument for the ls command should be a path, and the output should be a list of the files and folders in the path. Since there is no argument, the files in the current working directory are listed, which is just the lecture1 folder. There is no error.
 
-** path to a directory as an argument **
+**path to a directory as an argument**
+
 ![Image](screenshot9.png)	
 
 Working directory: /home
 
 All the files in the lecture1 folder are listed because the ls command lists all the files in the given path, which in this case would be the lecture1 folder as that is the arguement. There is no error.
 
-** path to a file as an argument **
+**path to a file as an argument**
+
 ![Image](screenshot10.png)	
 
 Working directory: /home/lecture1
@@ -50,12 +56,16 @@ Hello.java is listed because that is the only file that is in the /home/lecture1
 
 ## Here are some examples of the command cat
 
-** no arguments **
+**no arguments**
+
 ![Image](screenshot5.png)	
 
 Working directory: /home
 
-** path to a directory as an argument **
+Cat prints out the contents of the file that is in the path of the argument. Since there is no argument, there are no contents to print out, so an error occurs. Here, the terminal is stuck running forever because cat is supposed to print out contents but there's nothing to print out.
+
+**path to a directory as an argument**
+
 ![Image](screenshot6.png)	
 
 Working directory: /home
@@ -66,4 +76,4 @@ Cat is meant to print the contents of a file. In this case, the argument is a pa
 ![Image](screenshot7.png)	
 Working directory: /home/lecture1
 
-The content of the file Hello.java is printed because the cat command prints the contents of the file of the given path. There is no error.
+The content of the file Hello.java is printed because the cat command prints the contents of the file of the given path, which in this case is /home/lecture1/Hello.java. There is no error.
