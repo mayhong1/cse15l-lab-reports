@@ -68,6 +68,7 @@ Similar to the first screenshot, the handleRequest method was called. However, t
 
 # Part 2
 ![screenshot3](screenshot3.png)
+The image above shows the absolute paths for the private and public key. 
 ![screenshot5](screenshot5.png)
 
 # Part 3
