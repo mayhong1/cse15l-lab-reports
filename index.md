@@ -1,7 +1,7 @@
 # Part 1
 ## Here is my code for ChatServer!
 
-'''
+```
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList; 
@@ -54,22 +54,25 @@ class ChatServer {
     }
 }
 
-'''
+```
 
 ## ChatServer Usage
 
 ![screenshot1](screenshot1.png)
 
-The handleRequest method was called. The argument was the uri, which is http://localhost:4000/add-message?s=Hello!&user=tb12. Two relevant fields of the class are words and names, which are the ArrayLists that hold all the messages and usernames that were inputted using /add-message. The message, which was "Hello!", was added as the first element to words. The username, which was "tb12", was added as the first element to names. Another relevant field is errorString, which is the String that holds the message that would be displayed in case of an error. This field does not change because it isn't updated whenever there is a new input; it's meant to stay the same. 
+The `handleRequest` method was called. The argument was the uri, which is `http://localhost:4000/add-message?s=Hello!&user=tb1`2. Two relevant fields of the class are `words` and `names`, which are the ArrayLists that hold all the messages and usernames that were inputted using `/add-message`. The message, which was "Hello!", was added as the first element to `words`. The username, which was "tb12", was added as the first element to `names`. Another relevant field is `errorString`, which is the string that holds the message that would be displayed in case of an error. This field does not change because it isn't updated whenever there is a new input; it's meant to stay the same. 
 
 ![screenshot2](screenshot2.png)
 
-Similar to the first screenshot, the handleRequest method was called. However, the argument is different as this screenshot contains a different uri. Here, it is http://localhost:4000/add-message?s=hi&user=arod. Like in the first screenshot, the relevant fields are words, names, and errorString. The message of "hi" gets added as the second element to words as the message in the first screenshot occupies the spot as the first element. The username of "arod" is added as the second element to names with the username in the first screenshot being the first element. errorString remains the same as it isn't updated anywhere in the code.
+Similar to the first screenshot, the `handleRequest` method was called. However, the argument is different as this screenshot contains a different uri. Here, it is `http://localhost:4000/add-message?s=hi&user=arod`. Like in the first screenshot, the relevant fields are `words`, `names`, and `errorString`. The message of "hi" gets added as the second element to `words` as the message in the first screenshot occupies the spot as the first element. The username of "arod" is added as the second element to `names` with the username in the first screenshot being the first element. `errorString` remains the same as it isn't updated anywhere in the code.
 
 # Part 2
 ![screenshot3](screenshot3.png)
-The image above shows the absolute paths for the private and public key. 
+
+The image above shows the absolute paths for the private and public key. The private key is the file `id_rsa`, and the public key is the file `id_rsa.pub`.
+
 ![screenshot5](screenshot5.png)
+The image above showscases me logging into my ieng6 account with the need for a password
 
 # Part 3
 I learned a lot from lab in week 2! I learned how to create a server in Java, which is something that I've never done before. Additionally, I learned how to send inputs to a server using the uri.
