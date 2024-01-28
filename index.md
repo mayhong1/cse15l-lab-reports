@@ -60,7 +60,7 @@ class ChatServer {
 
 ![screenshot1](screenshot1.png)
 
-The `handleRequest` method was called. The argument was the uri, which is `http://localhost:4000/add-message?s=Hello!&user=tb1`2. Two relevant fields of the class are `words` and `names`, which are the ArrayLists that hold all the messages and usernames that were inputted using `/add-message`. The message, which was "Hello!", was added as the first element to `words`. The username, which was "tb12", was added as the first element to `names`. Another relevant field is `errorString`, which is the string that holds the message that would be displayed in case of an error. This field does not change because it isn't updated whenever there is a new input; it's meant to stay the same. 
+The `handleRequest` method was called. The argument was the uri, which is `http://localhost:4000/add-message?s=Hello!&user=tb12`. Two relevant fields of the class are `words` and `names`, which are the ArrayLists that hold all the messages and usernames that were inputted using `/add-message`. The message, which was "Hello!", was added as the first element to `words`. The username, which was "tb12", was added as the first element to `names`. Another relevant field is `errorString`, which is the string that holds the message that would be displayed in case of an error. This field does not change because it isn't updated whenever there is a new input; it's meant to stay the same. 
 
 ![screenshot2](screenshot2.png)
 
