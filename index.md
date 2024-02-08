@@ -69,7 +69,11 @@ Similar to the first screenshot, the `handleRequest` method was called. However,
 # Part 2
 ![screenshot3](screenshot3.png)
 
-The image above shows the absolute paths for the private and public key. The private key is the file `id_rsa`, and the public key is the file `id_rsa.pub`.
+The image above shows the absolute path for the private key. It is the file 'id_rsa'.
+
+![screenshot7](screenshot7.png)
+
+The image above shows the absolute paths for the public key in ieng6. It is contained in the 'authorized_keys' file because that is where I copied the public key to. If you perform 'cat' on 'authorized_keys', you can see that it contains the public key. 
 
 ![screenshot5](screenshot5.png)
 The image above showscases me logging into my ieng6 account with the need for a password
