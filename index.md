@@ -1,4 +1,4 @@
-1. Failure Inducing & Non-Failure Inducing Input:
+Failure Inducing & Non-Failure Inducing Input:
 
 ```
 import static org.junit.Assert.*;
@@ -23,4 +23,12 @@ public class ArrayTests {
   }
 
 }
+```
+
+The symptom:
+![screenshot1](screenshot1.png)
+
+The bug:
+Before:
+After:
 
