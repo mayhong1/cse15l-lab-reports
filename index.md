@@ -30,5 +30,8 @@ The symptom:
 
 The bug:
 Before:
+![screenshot2](screenshot2.png)
+
 After:
+![screenshot3](screenshot3.png)
 
