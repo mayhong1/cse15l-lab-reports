@@ -29,9 +29,9 @@ The symptom:
 ![screenshot1](screenshot1.png)
 
 The bug:
-Before:
+Before Fixing:
 ![screenshot2](screenshot2.png)
 
-After:
+After Fixing:
 ![screenshot3](screenshot3.png)
 
