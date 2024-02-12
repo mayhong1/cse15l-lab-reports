@@ -1,26 +1,19 @@
-1. Failure Inducing Input:
+1. Failure Inducing & Non-Failure Inducing Input:
 
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
 
 public class ArrayTests {
+  // this test induces failure
   @Test
-  public void testReverseInPlace() {
+  public void testReverseInPlace1() {
     int [] input = {1, 2, 3, 4};
     int [] expected = {4, 3, 2, 1};
     ArrayExamples.reverseInPlace(input);
     assertArrayEquals(expected, input);
-  
   }
-}
-```
-2. Success Inducing Input:
-```
-import static org.junit.Assert.*;
-import org.junit.*;
-
-public class ArrayTests {
+  // this test does not induce failure
   @Test
   public void testReverseInPlace() {
     int [] input = {3, 2, 2, 3};
@@ -28,5 +21,6 @@ public class ArrayTests {
     ArrayExamples.reverseInPlace(input);
     assertArrayEquals(expected, input);
   }
+
 }
-```
+
