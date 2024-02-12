@@ -15,3 +15,18 @@ public class ArrayTests {
   }
 }
 ```
+2. Success Inducing Input:
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class ArrayTests {
+  @Test
+  public void testReverseInPlace() {
+    int [] input = {3, 2, 2, 3};
+    int [] expected = {3, 2, 2, 3};
+    ArrayExamples.reverseInPlace(input);
+    assertArrayEquals(expected, input);
+  }
+}
+```
