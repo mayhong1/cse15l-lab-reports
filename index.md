@@ -1,5 +1,6 @@
 1. Failure Inducing Input:
-`
+
+```
 import static org.junit.Assert.*;
 import org.junit.*;
 
@@ -13,5 +14,4 @@ public class ArrayTests {
   
   }
 }
-
-`
+```
