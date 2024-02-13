@@ -42,6 +42,16 @@ In the before screenshot, the values in the array were being directly modified. 
 
 # Part 2
 
+## Alternatives to `grep`
+
+### egrep
+
+### ack
+
+### ag
+
+###rg
+
 ## Sources Cited:
 I found all these commmands through ChatGPT.
 
