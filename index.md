@@ -238,4 +238,4 @@ to the sciences will be an excellent investment by developing nations in terms o
 Description: Every line that contains the phrase "nations" in journal.pbio.0020001.txt is printed. fgrep works similarly to grep, printing out instances of a pattern. With this commmand, the pattern to search for is specified as "nations" and the file to search in is specified as "journal.pbio.0020001.txt".
 
 ## Sources Cited:
-I found all these commmands through ChatGPT. Here is the link to my ChatGPT history, which conatains all my inputs to ChatGPT along with ChatGPT's outputs: https://chat.openai.com/share/212f8a1f-8ef5-400f-8ee7-b3dca9615eae
+I found all these commmands through ChatGPT. Here is the link to my ChatGPT history, which contains all my inputs to ChatGPT along with ChatGPT's outputs: https://chat.openai.com/share/212f8a1f-8ef5-400f-8ee7-b3dca9615eae
