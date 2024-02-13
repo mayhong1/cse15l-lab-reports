@@ -87,6 +87,8 @@ Output:
 911report/chapter-8.txt:            In June 2000, Mihdhar left California and returned to Yemen. It is possible that if,
 ```
 
+Description: Every line that contains the word "California" inside the 911report/ directory is printed out. This is because egrep prints out all instances of the given pattern; here, I specified the pattern to be "California" and for the command to search inside the 911report/ directory.
+
 #### egrep Example 2
 Working directory: ~/OneDrive/Desktop/CSE 15L/LabWeek5/docsearch/technical/government/alcohol_problems
 
@@ -100,6 +102,8 @@ NIAAA list of priorities. NIAAA has a National Advisory Council
 research priorities, she said. Every three to five years, NIAAA
 interventions, are on the list. NIAAA is a small institution with
 ```
+
+Descrption: Every line that contains the phrase "NIAAA" in the DraftRecom-PDF.txt file is printed along with the contents of the line. The reasoning behind this is that egrep prints out all instances of a specified pattern, and here I specified the pattern to be "NIAAA" and to look inside DraftRecom-PDF.txt.
 
 ### sed
 
@@ -120,6 +124,8 @@ SEC. 2. Section 404 of title 37, United States Code, is amended
 37, United States Code (Travel and Transportation Allowances). This
 ```
 
+Description: Every line that contins the phrase "United States" in the ffm.txt file is printed. This is because sed can search for specific patterns and print them out; here, I specified the pattern to be "United States" and to look inside "ffm.txt". The "-n" supresses automatic printing, and the "\p" tells the computer to print out every line that contains "United States".
+
 #### sed Example 2
 
 Working Directory: ~/OneDrive/Desktop/CSE 15L/LabWeek5/docsearch/technical/biomed
@@ -136,6 +142,8 @@ for age, race, and previous smoking (columns 1 and 3), and
 and smoking, averaged 6.0 years for women with a baseline
 race, and former smoking. As mentioned above, the group
 ```
+
+Description: Every line that has the phrase "smoking" in the 1468-6708-3-1.txt file is printed. The command indicates for the computer to search for the phrase "United States" inside "ffm.txt" and print out the lines where the phrase appears.
 
 ### awk
 
@@ -172,6 +180,8 @@ If New York and other major cities are to be prepared for future terrorist attac
 In May 2004, New York City adopted an emergency response plan that expressly
 ```
 
+Description: Every line that has the phrase "New York" in chapter-9.txt is printed. awk can print out instances of a pattern: here, "New York" is printed because of the "{ print }". In the command, it is specified to do this with the file chapter-9.txt.
+
 #### awk Example 2
 
 Working Directory: ~/OneDrive/Desktop/CSE 15L/LabWeek5/docsearch/technical/government/media
@@ -189,6 +199,8 @@ their ability, thereby assisting the citizens of Illinois," Sheila
 additional resources for such programs in Illinois through
 LAP to establish offices in central and southern Illinois and
 ```
+
+Description: Every line that has the phrase "Illinois" in Annual_Fee.txt is printed. awk can print out instances of a pattern: here, "Illinois" is printed because of the "{ print }". In the command, it is specified to do this with the file Annual_Fee.txt.
 
 ### fgrep
 
@@ -208,6 +220,8 @@ people are served by only 24 percent of the state's lawyers.
 counsel. Why? Because competent lawyers in the corporate practice
 ```
 
+Description: Every line that contains the phrase "lawyer" in Barnes_new_job.txt is printed. fgrep works similarly to grep, printing out instances of a pattern. With this commmand, the pattern to search for is specified as "lawyer" and the file to search in is specified as "Barnes_new_job.txt".
+
 #### fgrep Example 2
 
 Working Directory: ~/OneDrive/Desktop/CSE 15L/LabWeek5/docsearch/technical/plos
@@ -221,32 +235,7 @@ direction. The extremely high scientific productivity of many developing nations
 to the sciences will be an excellent investment by developing nations in terms of
 ```
 
+Description: Every line that contains the phrase "nations" in journal.pbio.0020001.txt is printed. fgrep works similarly to grep, printing out instances of a pattern. With this commmand, the pattern to search for is specified as "nations" and the file to search in is specified as "journal.pbio.0020001.txt".
+
 ## Sources Cited:
-I found all these commmands through ChatGPT.
-
-Here was more prompt: What are 4 commands that do the same thing as grep, and how do you use them?
-
-Here was ChatGPT's answer: 
-Sure, here are four commands that can perform similar tasks as `grep`, along with how to use them:
-
-1. **egrep**:
-   - Usage: `egrep [options] pattern [files]`
-   - Example: `egrep "pattern" file.txt`
-   - Explanation: `egrep` is similar to `grep`, but it supports extended regular expressions without needing to escape certain characters. You can use it to search for a pattern in one or more files.
-
-2. **ack**:
-   - Usage: `ack [options] pattern [files or directories]`
-   - Example: `ack "pattern" file.txt`
-   - Explanation: `ack` is a tool designed for programmers to search through code. It automatically ignores commonly ignored files and directories (like version control metadata), and highlights search results. It's particularly useful when searching through large codebases.
-
-3. **ag (The Silver Searcher)**:
-   - Usage: `ag [options] pattern [path]`
-   - Example: `ag "pattern" file.txt`
-   - Explanation: `ag` is a fast search tool optimized for codebases. It's written in C and is faster than both `grep` and `ack`. It ignores files and directories that are typically not relevant in programming projects, such as version control directories.
-
-4. **rg (ripgrep)**:
-   - Usage: `rg [options] pattern [path]`
-   - Example: `rg "pattern" file.txt`
-   - Explanation: `rg` is another fast search tool, written in Rust. It's designed to be faster than both `grep` and `ag`. It's particularly useful for searching through large codebases quickly and efficiently.
-
-These commands work similarly to `grep` but may have different features or optimizations suited for specific tasks or environments.
+I found all these commmands through ChatGPT. Here is the link to my ChatGPT history, which conatains all my inputs to ChatGPT along with ChatGPT's outputs: https://chat.openai.com/share/212f8a1f-8ef5-400f-8ee7-b3dca9615eae
