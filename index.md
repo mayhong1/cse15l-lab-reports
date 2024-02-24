@@ -25,11 +25,11 @@ Summary: First, I changed the working directory to lab7. After having "cd l" in 
 
 ![image4](image4.png)
 
-image 4 description
+This image shows what happened after I ran "vim ListExamples.java". The cursor was already on the correct spot that I needed to change. I'm nto sure why, but I think it's because last time I opened vim, I left my cursor on that spot.
 
 ![image5](image5.png)
 
-image 5 description
+This image shows what happens after I saved my changes and exited vim.
 
 All keys pressed: v i m `<space>` L i `<tab>` . j `<tab>` `<enter>` i 2 `<right>` `<backspace>` `<escape>` : w q `<enter>`
 
