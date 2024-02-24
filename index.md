@@ -1,13 +1,13 @@
 ## Step 4:
 
-![image1][image1.png]
+![image1](image1.png)
 All keys pressed: s s h `<space>` m 4 h o n g @ i e n g 6 . u c s d . e d u `<enter>`
 
 Summary: To log into ieng6, I used the ssh command which allows the user to connect to a remote machine. I logged in to ieng6 with my username, m4hong@ieng6.ucsd.edu. All my key presses were to type the correct command.
 
 ## Step 5:
 
-![image2][image2.png]
+![image2](image2.png)
 
 All keys pressed: g i t `<space>` c l o n e `<space>` `<ctrl>`+v
 
@@ -15,7 +15,7 @@ Summary: I used the git clone command to clone my forked repository of lab 7. I 
 
 ## Step 6:
 
-![image3][image3.png]
+![image3](image3.png)
 
 All keys pressed: c d `<space>` l `<tab>` `<enter>` b a s h `<space>` t `<tab>` `<enter>`
 
@@ -23,11 +23,11 @@ Summary: First, I changed the working directory to lab7. After having "cd l" in 
 
 ## Step 7:
 
-![image4][image4.png]
+![image4](image4.png)
 
 image 4 description
 
-![image5][image5.png]
+![image5](image5.png)
 
 image 5 description
 
@@ -37,7 +37,7 @@ Summary: First, I ran the command "vim ListExamples.java" because that would ope
 
 ## Step 8: 
 
-![image6][image6.png]
+![image6](image6.png)
 
 All keys pressed: `<up>` `<up>` `<enter>`
 
@@ -45,7 +45,7 @@ Summary: I wanted to run "bash test.sh" because that is the file that runs the t
 
 ## Step 9:
 
-![image7][image7.png]
+![image7](image7.png)
 
 All keys pressed: g i t `<space>` a d d `<space>` L i `<tab>` `<enter>` 9 `<down>` `<down>` `<enter>` i H e l l o `<escape>` : w q `<enter>` g i t `<space>` p u s h `<enter>` 
 
