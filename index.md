@@ -1,7 +1,7 @@
 # Part 1 - Debugging Scenario
 
 ### Original Post:
-Help! I git cloned code from https://github.com/ucsd-cse15l-f23/chat-server/blob/main/test.sh and made a few modifications. I'm trying to run my bash script which runs tester cases for my program, but when I run it I get errors. Below, I've attached screenshots of the command-line output, my bash script, and my code for the test cases. According to the command line, it is the import statements inside my HandlerTests.java file that is causing these errors (all the subsequent errors are because the libraries weren't properly imported). However, I've quadruple-checked those import statements and they are correct according to the official JUnit documentation. TAs please help me!!!!
+Help! I git cloned code from https://github.com/ucsd-cse15l-f23/chat-server/tree/main and made a few modifications. I'm trying to run my bash script which runs tester cases for my program, but when I run it I get errors. Below, I've attached screenshots of the command-line output, my bash script, and my code for the test cases. According to the command line, it is the import statements inside my HandlerTests.java file that is causing these errors (all the subsequent errors are because the libraries weren't properly imported). However, I've quadruple-checked those import statements and they are correct according to the official JUnit documentation. TAs please help me!!!!
 
 Command-line output:
 
@@ -27,7 +27,7 @@ Hi! I fixed the code, the bash script is able to run successfully now. Basically
 
 ### Setup Info:
 
-The file & directory structure needed & the contents: all the code from https://github.com/ucsd-cse15l-f23/chat-server/blob/main/test.sh, except there are a few modifications to the the test.sh file which should look like this:
+The file & directory structure needed & the contents: all the code from https://github.com/ucsd-cse15l-f23/chat-server/tree/main, except there are a few modifications to the the test.sh file which should look like this:
 
 ![image2](screenshot2.png)
 
