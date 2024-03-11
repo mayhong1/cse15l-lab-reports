@@ -21,9 +21,21 @@ Hey! According to the command-line output, the java compiler is saying that it c
 
 ### Student Reply:
 
-Hi! I fixed the code, the bash script is able to run successfully now. Basically, the paths in my bash script were formatted to work on a Unix-based system and not a Windows one. Since I am on Windows, in my test.sh file I modified the paths to use ";" instead of ":" and to have quotation marks around the paths, which would be the correct format for a Windows-based system. Thanks for the help! Here is my output now. 
+Hi! I fixed the code, the bash script is able to run successfully now. Basically, the paths in my bash script were formatted to work on a Unix-based system and not a Windows one. Since I am on Windows, in my test.sh file I modified the paths to use ";" instead of ":" and to have quotation marks around the paths, which would be the correct format for a Windows-based system. Thanks for the help! Here is my output now, which is my expected output.
 
 ![image4](screenshot4.png)
+
+### Setup Info:
+
+The file & directory structure needed & the contents: all the code from https://github.com/ucsd-cse15l-f23/chat-server/blob/main/test.sh, except there are a few modifications to the the test.sh file which should look like this:
+
+![image2](screenshot2.png)
+
+The full command line (or lines) you ran to trigger the bug: bash test.sh
+
+A description of what to edit to fix the bug: In the test.sh file, modify the paths to use ";" instead of ":" and have quotation amrks around the paths. The file should look like this:
+
+![image5](screenshot5.png)
 
 # Part 2 - Reflection
 
