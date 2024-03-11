@@ -15,6 +15,15 @@ Code for the test cases:
 
 ![image3](screenshot3.png)
 
+### TA Reply:
+
+Hey! According to the command-line output, the java compiler is saying that it can't find the JUnit library (hence, the message that it doesn't exist). A common cause for this is that the path to the JUnit JAR files is incorrect in the classpath (-cp) argument. Check to make sure that the path you inputted as arguments are correct. It seems that you are using a Window system whereas the code in the github repo was designed for a Unix-based system, maybe look into that. Let me know if you need any more help!
+
+### Student Reply:
+
+Hi! I fixed the code, the bash script is able to run successfully now. Basically, the paths in my bash script were formatted to work on a Unix-based system and not a Windows one. Since I am on Windows, in my test.sh file I modified the paths to use ";" instead of ":" and to have quotation marks around the paths, which would be the correct format for a Windows-based system. Thanks for the help! Here is my output now. 
+
+![image4](screenshot4.png)
 
 # Part 2 - Reflection
 
